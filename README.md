@@ -12,11 +12,11 @@ Step 4 : Download input.txt which is the input where the model is trained
 
 ######################
 
-A basic decoder-based neural network model trained on Shakespeare's text. The model uses multi-head attention, self-attention, feed-forward network, layer normalization, and residual connection.
+A basic character-level decoder-based neural network model trained on Shakespeare's text. The model uses multi-head attention, self-attention, feed-forward network, layer normalization, and residual connection to generate text at the character level
 
 Architecture
 
-Encoder: self-attention + feed-forward network
+Encoder: self-attention + feed-forward network /n
 Decoder: multi-head attention + self-attention + feed-forward network
 Multi-head Attention: computes attention weights across different heads
 Self-Attention: computes attention weights within the same sequence
