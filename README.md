@@ -16,7 +16,7 @@ A basic character-level decoder-based neural network model trained on Shakespear
 
 Architecture
 
-Encoder: self-attention + feed-forward network /n
+Encoder: self-attention + feed-forward network
 Decoder: multi-head attention + self-attention + feed-forward network
 Multi-head Attention: computes attention weights across different heads
 Self-Attention: computes attention weights within the same sequence
